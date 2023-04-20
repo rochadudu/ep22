@@ -8,21 +8,17 @@ nav a {
     text-decoration: none;
     font-size: 28px;
     font-weight: bold;
-}
+}stle
 
-a { 
-    color: rgb(255, 0, 0);
+a{
+    color: rgb(255, 255,255);
     text-decoration: none;
-    
-        }
-    
-      
-		
+}
 
 header img {
     width: 100px;
-    border-radius: 100%;
-    border: 10px solid #00000000;
+    border-radius: 50%;
+    border: 5px solid #00000000;
 }
 
 .center {
@@ -37,7 +33,10 @@ h2{
     color: #ffffff
 }
 
-
+footer img {
+    width: 400px;
+    height: 400px;
+}
 
 footer { 
     display:flex;
@@ -46,34 +45,69 @@ footer {
 
 footer a {
     margin: 55px;
-   }
+}
+
+footer {
+    background-color: #000000;
+    padding: -20px;
+    text-align: center;
+}
 
 h4 {
     color:gold
 }
+
 body{
-    background-color: #000000;
-    
+    display:grid;
+    grid-gap: 0.5rem;
+    grid-template:
+    "cc cc cc"
+    "bb cp cp"
+    "pp pp pp";
+    grid-template-columns:300px auto auto ;
+    grid-template-rows: auto auto auto;
+    background-color: black;
+
 }
 
-  header {
-    position: inherit;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(229, 255, 0);
+.grid_cabeca{
+    grid-area: cc;
+    background-color: gold;
     Border-radius: 10px;
-
-    }
-
-  footer {
-    position: inherit;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(229, 255, 0);
-    Border-radius: 10px;
+}
+.grid_braco{
+    grid-area: bb;
+    background-color:gold;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+    (255, 255, 255);
+    Border-radius : 25px;
+} 
+.grid_corpo{
+    grid-area: cp;
+    background-color: rgb(255, 255, 255);
+    Border-radius: 19px;
+}
+.grid_perna{
+    grid-area: pp;
+    background-color: gold;
+    Border-radius: 19px;
+    
+}
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    Border-radius: 19px;
   }
-
+  .texto {
+    font-size: 16px;
+    transition: font-size 0.2s ease-in-out;
+}
+.texto:hover {
+    font-size: 20px;
+}
+li:hover {
+    font-size: 1.2em;
+  }
