@@ -81,13 +81,13 @@ body{
     color: #ffffff;
     text-align: center;
     padding: 35px;
-    (255, 255, 255);
-    Border-radius : 25px;
+    (255, 255, 255,)
+    Border-radius : 25px
 } 
 .grid_corpo{
     grid-area: cp;
     background-color: rgb(255, 255, 255);
-    Border-radius: 19px;
+    Border-radius: 19px
 }
 .grid_perna{
     grid-area: pp;
