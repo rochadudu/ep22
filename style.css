@@ -8,7 +8,7 @@ nav a {
     text-decoration: none;
     font-size: 28px;
     font-weight: bold;
-}stle
+}
 
 a{
     color: rgb(255, 255,255);
@@ -72,12 +72,12 @@ body{
 
 .grid_cabeca{
     grid-area: cc;
-    background-color: gold;
+    background-color: rgb(136, 0, 0);
     Border-radius: 10px;
 }
 .grid_braco{
     grid-area: bb;
-    background-color:gold;
+    background-color:rgb(136, 0, 0);
     color: #ffffff;
     text-align: center;
     padding: 35px;
@@ -91,7 +91,7 @@ body{
 }
 .grid_perna{
     grid-area: pp;
-    background-color: gold;
+    background-color: rgb(136, 0, 0);
     Border-radius: 19px;
     
 }
