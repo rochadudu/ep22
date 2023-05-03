@@ -33,6 +33,10 @@ h2{
     color: #ffffff
 }
 
+h3{
+    color: #ffffff
+}
+
 footer img {
     width: 400px;
     height: 400px;
@@ -86,7 +90,7 @@ body{
 } 
 .grid_corpo{
     grid-area: cp;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(136, 0, 0);
     Border-radius: 19px
 }
 .grid_perna{
@@ -119,3 +123,14 @@ li:hover {
 .hoverable:hover + img {
   display:block;
 }
+#mostrar{
+    display: none;
+  }
+  
+  #passar_mouse:hover #mostrar{
+    display:block;
+    }
+ p {
+        color: #ffffff; 
+        font-size: 16px; 
+ }
